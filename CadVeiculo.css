@@ -1,0 +1,204 @@
+.cadastro-veiculos {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background-color: #b8dbb8;
+}
+
+.cadastro-veiculos .overlap-group {
+  width: 1665px;
+  height: 914px;
+  top: 125px;
+  left: 127px;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+  border-color: #000000;
+  position: absolute;
+  border: 1px solid;
+}
+
+.cadastro-veiculos .rectangle {
+  top: 375px;
+  position: absolute;
+  width: 689px;
+  height: 65px;
+  left: 552px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.cadastro-veiculos .div {
+  top: 478px;
+  position: absolute;
+  width: 689px;
+  height: 65px;
+  left: 552px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.cadastro-veiculos .rectangle-2 {
+  top: 576px;
+  position: absolute;
+  width: 689px;
+  height: 65px;
+  left: 552px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.cadastro-veiculos .rectangle-3 {
+  top: 684px;
+  position: absolute;
+  width: 689px;
+  height: 65px;
+  left: 552px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.cadastro-veiculos .text-wrapper {
+  position: absolute;
+  width: 162px;
+  top: 174px;
+  left: 55px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  line-height: 45.6px;
+}
+
+.cadastro-veiculos .text-wrapper-2 {
+  position: absolute;
+  width: 475px;
+  top: 272px;
+  left: 55px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  line-height: 45.6px;
+}
+
+.cadastro-veiculos .text-wrapper-3 {
+  position: absolute;
+  width: 162px;
+  top: 374px;
+  left: 55px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  line-height: 45.6px;
+}
+
+.cadastro-veiculos .text-wrapper-4 {
+  position: absolute;
+  width: 268px;
+  top: 477px;
+  left: 55px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  line-height: 45.6px;
+}
+
+.cadastro-veiculos .text-wrapper-5 {
+  position: absolute;
+  width: 463px;
+  top: 575px;
+  left: 55px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  line-height: 45.6px;
+}
+
+.cadastro-veiculos .text-wrapper-6 {
+  position: absolute;
+  width: 315px;
+  top: 683px;
+  left: 55px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  line-height: 45.6px;
+}
+
+.cadastro-veiculos .rectangle-4 {
+  top: 175px;
+  position: absolute;
+  width: 689px;
+  height: 65px;
+  left: 552px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.cadastro-veiculos .rectangle-5 {
+  top: 273px;
+  position: absolute;
+  width: 689px;
+  height: 65px;
+  left: 552px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.cadastro-veiculos .overlap {
+  width: 406px;
+  height: 83px;
+  top: 783px;
+  left: 1185px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border-color: var(--color-icon-brand-on-brand-secondary);
+  position: absolute;
+  border: 1px solid;
+  gap: var(--size-space-200);
+}
+
+.cadastro-veiculos .text-wrapper-7 {
+  position: absolute;
+  width: 256px;
+  height: 32px;
+  top: 24px;
+  left: 76px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.cadastro-veiculos .cadastrar-veculo {
+  position: absolute;
+  width: 411px;
+  height: 48px;
+  top: 41px;
+  left: 817px;
+}
+
+.cadastro-veiculos .element {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  top: 26px;
+  left: 28px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}

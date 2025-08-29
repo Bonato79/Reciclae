@@ -1,0 +1,116 @@
+.form-log-in {
+  display: flex;
+  flex-direction: column;
+  width: 710px;
+  height: 502px;
+  align-items: flex-start;
+  gap: var(--size-space-600);
+  padding: var(--size-space-600);
+  position: relative;
+  background-color: #b8dbb8;
+  border-radius: var(--size-radius-200);
+  border: 1px solid;
+  border-color: #d9d9d9;
+}
+
+.form-log-in .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--size-space-200);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.form-log-in .label {
+  position: relative;
+  align-self: stretch;
+  margin-top: -2.00px;
+  margin-left: -1.00px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: var(--heading-font-family);
+  font-weight: var(--heading-font-weight);
+  color: #ffffff;
+  font-size: var(--heading-font-size);
+  letter-spacing: var(--heading-letter-spacing);
+  line-height: var(--heading-line-height);
+  font-style: var(--heading-font-style);
+}
+
+.form-log-in .input {
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  padding: var(--size-space-300) var(--size-space-400) var(--size-space-300)
+    var(--size-space-400);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  background-color: #ffffff;
+  border-radius: var(--size-radius-200);
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #d9d9d9;
+}
+
+.form-log-in .value {
+  position: relative;
+  flex: 1;
+  margin-top: -0.50px;
+  opacity: 0.8;
+  font-family: "Roboto Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #b3b3b3;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.form-log-in .button-group {
+  display: flex;
+  align-items: center;
+  gap: var(--size-space-400);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.form-log-in .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-300);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--color-background-brand-default);
+  border-radius: var(--size-radius-200);
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #2c2c2c;
+}
+
+.form-log-in .text-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--color-text-brand-on-brand);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}

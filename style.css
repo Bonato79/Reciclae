@@ -1,0 +1,308 @@
+.TELA-INICIAL-sem {
+  width: 1613px;
+  height: 895px;
+  background-color: #f00f0f;
+  border: 1px solid;
+  border-color: #ec0b0b;
+}
+
+.TELA-INICIAL-sem .overlap-group {
+  position: relative;
+  height: 895px;
+  background-color: #b8dbb8;
+}
+
+.TELA-INICIAL-sem .overlap {
+  position: absolute;
+  width: 1613px;
+  height: 105px;
+  top: 0;
+  left: 0;
+}
+
+.TELA-INICIAL-sem .header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1613px;
+  height: 105px;
+  align-items: center;
+  gap: var(--size-space-600);
+  padding: var(--size-space-800);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-background-default-default);
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-color: var(--color-border-default-default);
+}
+
+.TELA-INICIAL-sem .navigation-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--size-space-200);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.TELA-INICIAL-sem .sobre-ns {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--color-background-brand-tertiary);
+  border-radius: var(--size-radius-200);
+}
+
+.TELA-INICIAL-sem .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-brand-on-brand-secondary);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.TELA-INICIAL-sem .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: var(--size-radius-200);
+}
+
+.TELA-INICIAL-sem .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-default-default);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.TELA-INICIAL-sem .header-auth {
+  display: flex;
+  width: 178px;
+  align-items: center;
+  gap: var(--size-space-300);
+  position: relative;
+}
+
+.TELA-INICIAL-sem .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--color-background-neutral-tertiary);
+  border-radius: var(--size-radius-200);
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--color-border-neutral-secondary);
+}
+
+.TELA-INICIAL-sem .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-default-default);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.TELA-INICIAL-sem .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-space-200);
+  padding: var(--size-space-200);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--color-background-brand-default);
+  border-radius: var(--size-radius-200);
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--color-border-brand-default);
+}
+
+.TELA-INICIAL-sem .button-4 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--single-line-body-base-font-family);
+  font-weight: var(--single-line-body-base-font-weight);
+  color: var(--color-text-brand-on-brand);
+  font-size: var(--single-line-body-base-font-size);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  white-space: nowrap;
+  font-style: var(--single-line-body-base-font-style);
+}
+
+.TELA-INICIAL-sem .tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  position: absolute;
+  top: 28px;
+  left: 1492px;
+  background-color: var(--orange-300);
+  border-radius: 9999px;
+}
+
+.TELA-INICIAL-sem .children {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--text-lg-lineheight-7-font-semibold-font-family);
+  font-weight: var(--text-lg-lineheight-7-font-semibold-font-weight);
+  color: var(--blue-700);
+  font-size: var(--text-lg-lineheight-7-font-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--text-lg-lineheight-7-font-semibold-letter-spacing);
+  line-height: var(--text-lg-lineheight-7-font-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-lg-lineheight-7-font-semibold-font-style);
+}
+
+.TELA-INICIAL-sem .children-wrapper {
+  display: flex;
+  width: 109px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  position: absolute;
+  top: 26px;
+  left: 1379px;
+  background-color: var(--blue-600);
+  border-radius: 9999px;
+}
+
+.TELA-INICIAL-sem .children-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--text-lg-lineheight-7-font-semibold-font-family);
+  font-weight: var(--text-lg-lineheight-7-font-semibold-font-weight);
+  color: var(--white);
+  font-size: var(--text-lg-lineheight-7-font-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--text-lg-lineheight-7-font-semibold-letter-spacing);
+  line-height: var(--text-lg-lineheight-7-font-semibold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-lg-lineheight-7-font-semibold-font-style);
+}
+
+.TELA-INICIAL-sem .element {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  top: 13px;
+  left: 47px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.TELA-INICIAL-sem .text-wrapper-2 {
+  position: absolute;
+  height: 38px;
+  top: 33px;
+  left: 154px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #000000;
+  font-family: var(--subtitle-font-family);
+  font-weight: var(--subtitle-font-weight);
+  color: #b1ef97;
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitle-font-style);
+}
+
+.TELA-INICIAL-sem .image {
+  position: absolute;
+  width: 109px;
+  height: 109px;
+  top: 781px;
+  left: 1498px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.TELA-INICIAL-sem .sobre-n-s-somos-uma {
+  position: absolute;
+  width: 668px;
+  height: 726px;
+  top: 131px;
+  left: 46px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #7d6c6c;
+  font-family: var(--heading-font-family);
+  font-weight: var(--heading-font-weight);
+  color: #000000;
+  font-size: var(--heading-font-size);
+  text-align: justify;
+  letter-spacing: var(--heading-letter-spacing);
+  line-height: var(--heading-line-height);
+  font-style: var(--heading-font-style);
+}
+
+.TELA-INICIAL-sem .span {
+  font-weight: var(--heading-font-weight);
+  letter-spacing: var(--heading-letter-spacing);
+  font-family: var(--heading-font-family);
+  font-style: var(--heading-font-style);
+  line-height: var(--heading-line-height);
+  font-size: var(--heading-font-size);
+}
+
+.TELA-INICIAL-sem .meio-ambiente {
+  position: absolute;
+  width: 672px;
+  height: 672px;
+  top: 161px;
+  left: 800px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
